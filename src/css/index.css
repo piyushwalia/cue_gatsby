@@ -1,0 +1,20 @@
+@import '../css/type.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Gotham Book';
+}
+
+.bg-navbar {
+  background: rgba(128, 130, 133, 0.8) !important;
+}
+
+@media screen and max-width(1270px) {
+  .nav-items {
+    display: none;
+  }
+}
